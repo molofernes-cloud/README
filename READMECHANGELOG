@@ -1,0 +1,16 @@
+V.1.6 made small comments to make the code more understandable- August 14, 2025 10:33pm
+
+V.1.5 corrected the parentheses error in the subjects.append area- August 14, 2025 10.27pm
+
+V.1.5 corrected the input and made turned it into a float - August 14, 2025 10:19 pm
+
+V.1.4 made the variable total_points zero at first before the grade and units operations because code wouldn’t properly work August 14, 2025 10:06pm
+
+V.1.3 Rounded the gwa to two decimal 
+places. - August 14, 2025 9:24pm
+
+V.1.2 Added the input needed to get the amount of subjects- August 14, 2025 9:03pm
+
+V.1.1 Fixed the calculation error where It would not properly add to total_units. -August 14, 2025 9:58
+
+V.1.0 made an input that asked the students for grades and units- August 14, 2025 9:56 pm
