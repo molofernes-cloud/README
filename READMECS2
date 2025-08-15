@@ -1,0 +1,73 @@
+“Grade Point Average Helper”
+A simple python code to help students calculate their gwa
+
+Problem statement: Students 
+Computing the General Weighted Average (GWA) manually can be tiring and prone to mistakes. This project creates a simple Python program that quickly and accurately calculates a student’s GWA using grades and units, making the process faster and easier.
+
+Project objectives: 
+To provide quick and reliable results to help students track their academic performance.
+
+Planned Features: 
+•	Accept user input for the number of subjects.
+•	Allow entry of each subject’s grade and units.
+•	Automatically calculate the weighted average based on inputs.
+•	Display the GWA rounded to two decimal places.
+•	Use functions for better organization and readability of the code.
+•	Simple and beginner-friendly interface for easy use.
+
+Planned inputs and outputs:
+Planned Inputs:
+•	Number of subjects
+•	Grade for each subject.
+•	Units for each subject.
+
+Planned Outputs:
+•	The calculated General Weighted Average (GWA), rounded to two decimal places.
+•	A clear message displaying the GWA result.
+
+Steps to Run the Program:
+1.	Install Python
+•	Download and install Python from https://www.python.org if it’s not already installed.
+2.	Open a Code Editor or IDE
+•	You can use IDLE (comes with Python), VS Code, PyCharm, or any text editor.
+3.	Create a New Python File
+•	Save it with a .py extension (e.g., gwa_calculator.py).
+4.	Copy the Code
+•	Paste the GWA Calculator code into the file.
+5.	Save the File
+•	Press Ctrl + S (Windows) or Command + S (Mac).
+6.	Run the Program
+•	Using IDLE: Press F5.
+•	Using Terminal/Command Prompt:
+1.	Open Terminal or Command Prompt.
+2.	Navigate to the folder where your file is saved using cd foldername.
+3.	Type: python gwa_calculator.
+4.Enter Your Data
+•	Input the number of subjects.
+•	For each subject, enter the grade and units as asked.
+5.	View the Result
+*  The program will display your GWA rounded to two decimal places.
+
+
+Steps in the Code:
+1.	Define get_subject_data() Function
+•	Asks the user to enter the grade and units for a subject.
+•	Returns the entered values as numbers (float).
+2.	Define calculate_gwa() Function
+•	Receives a list of (grade, units) pairs.
+•	Multiplies each grade by its units to get total points.
+•	Sums all units.
+•	Divides total points by total units to get the GWA.
+3.	Define main() Function
+•	Creates an empty list to store subject data.
+•	Asks the user how many subjects they have.
+•	Loops through each subject:
+•	Calls get_subject_data() to collect grade and units.
+•	Stores them in the list.
+•	Calls calculate_gwa() to compute the GWA.
+•	Displays the GWA rounded to two decimal places.
+4.	Run the Program
+•	Calls main() so the program starts executing from there.
+
+Contributors: Aysha Maravilla, Vincent Avanzado, Matt Olofernes
+Date: August 14, 2024
