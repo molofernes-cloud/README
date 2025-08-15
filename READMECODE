@@ -1,0 +1,28 @@
+def get_subject_data():
+    """Ask user for grade and units, then return them as floats."""
+    grade = float(input("Enter grade: "))
+    units = float(input("Enter units: "))
+    return grade, units
+
+def calculate_gwa(subjects):
+    """Calculate GWA given a list of (grade, units)."""
+    total_points = 0
+    total_units = 0
+    for grade, units in subjects:
+        total_points += grade * units
+        total_units += units
+    return total_points / total_units
+
+def main():
+    subjects = []
+    num_subjects = int(input("How many subjects? "))
+    
+    for _ in range(num_subjects):
+        grade, units = get_subject_data()
+        subjects.append((grade, units))
+    
+    gwa = calculate_gwa(subjects)
+    print("Your GWA is:", round(gwa, 2))
+
+# Run the program
+main()
